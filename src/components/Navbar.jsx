@@ -47,7 +47,7 @@ const Navbar = () => {
           />
         </div>
 
-        <div className={`${!toggle ? 'opacity-0 -right-96' : 'opacity-100 right-1'} top-32 opacity-0 transition-all duration-300 p-6 black-gradient absolute mx-4 my-2 w-[95%] z-10 rounded-xl`}>
+        <div className={`${!toggle ? 'opacity-0 -right-96' : 'opacity-100 right-1'} lg:hidden top-32 opacity-0 transition-all duration-300 p-6 black-gradient absolute mx-4 my-2 w-[95%] z-10 rounded-xl`}>
           <ul className='list-none flex justify-end items-start flex-col gap-4'>
             {navLinks.map((link) => (
               <li

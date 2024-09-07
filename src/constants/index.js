@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    miac,
+    freelance
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +48,7 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "Frontend Developer",
         icon: mobile,
     },
     {
@@ -54,7 +56,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Fullstack Developer",
         icon: creator,
     },
 ];
@@ -116,55 +118,57 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Специалист технической поддержки",
+        company_name: "Аспро",
         icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        iconBg: "#FFF",
+        date: "Май 2021 - Август 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Обработка запросов пользователей: Прием, регистрация и решение запросов пользователей через телефон, электронную почту или чат.",
+            "Диагностика и устранение проблем: Определение и исправление технических проблем с программным обеспечением и оборудованием.",
+            "Поддержка пользователей: Помощь пользователям в обучении работе с программами и системами.",
+            "Документирование и отчеты: Ведение записей о проблемах и решениях, подготовка отчетов о проделанной работе.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        title: "Программист технического поддержки, 2 линия",
+        company_name: "Аспро",
+        icon: starbucks,
+        iconBg: "#FFF",
+        date: "Август 2022 - Март 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Анализ и решение сложных проблем: Устранение технических проблем, которые не смогла решить 1-я линия поддержки.",
+            "Работа с кодом и конфигурацией: Исправление ошибок в коде и настройках программного обеспечения.",
+            "Разработка и внедрение решений: Создание и внедрение исправлений, обновлений и улучшений для существующих систем.",
+            "Взаимодействие с разработчиками: Сотрудничество с командой разработчиков для решения сложных технических проблем и внедрения изменений.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        title: "Web Разработчик",
+        company_name: "МИАЦ",
+        icon: miac,
+        iconBg: "#FFF",
+        date: "Апрель 2023 - Сентябрь 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Разработка и поддержка веб-приложений с использованием React.js и других технологий.",
+            "Поддержка и рефакторинг существующих приложений.",
+            "Реализация адаптивного дизайна и обеспечение кроссбраузерной совместимости.",
+            "Участие в код-ревью.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        title: "Freelance",
+        company_name: "",
+        icon: freelance,
+        iconBg: "#FFF",
+        date: "Сентябрь 2023 - По настоящее",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Разработка и поддержка веб-приложений с использованием NextJS и других технологий.",
+            "Сотрудничество с различными клиентами для понимания их требований и создания качественных решений.",
+            "Реализация адаптивного дизайна и обеспечение совместимости с различными браузерами.",
+            "Участие в рецензировании кода и предоставление конструктивной обратной связи для улучшения кода.",
+            "Самостоятельное управление проектами, включая планирование, выполнение и контроль за соблюдением сроков.",
+            "Обеспечение высоких стандартов качества кода и выполнения задач в установленные сроки."
         ],
     },
 ];
@@ -172,56 +176,60 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Заказ выполнен быстро как всегда, все работает, все требования по ТЗ соблюдены. Благодарю за работу!",
+        name: "Ivan Merkulov",
+        place: 'FL.ru',
+        image: "https://randomuser.me/api/portraits/men/4.jpg",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
+            "Замечательный исполнитель. Все слышит и исправляет вовремя. Изначально мы сами предоставили неверные исходники так Артем все пояснил и сам исправил ошибки. Очень приятно, когда исполнитель всегда на связи – это очень важный аспект",
+        name: "Alexey Vlasov",
+        place: 'FL.ru',
         image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
+            "Верстали лендинг по макету, работы выполнили быстрее обозначенного срока, оперативно и четко внесли мелкие правки в результат, я доволен качеством!",
+        name: "Ekaterina Shubina",
+        place: 'FL.ru',
         image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
 ];
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Cyclo Rent",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Сайт позволяет пользователям легко находить, настраивать и заказывать велосипеды под свои потребности. Использованы новейшие технологии для создания быстрого, отзывчивого и визуально привлекательного интерфейса. Интеграция с API позволяет динамически отображать актуальные модели и аксессуары.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
+                name: "nextjs",
+                color: "black-text-gradient",
             },
             {
                 name: "tailwind",
                 color: "pink-text-gradient",
             },
+            {
+                name: "express",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "mongoDB",
+                color: "green-text-gradient",
+            },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: 'public/1.jpg',
     },
     {
-        name: "Job IT",
+        name: "Modern Haven",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Проект Modern Haven стал результатом тщательного внимания к деталям и стремления создать не только функциональное, но и визуально привлекательное решение для поиска вашего идеального дома.",
         tags: [
             {
                 name: "react",
@@ -236,29 +244,28 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: 'public/2.jpg',
     },
     {
-        name: "Trip Guide",
+        name: "W-Wave",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "W-Wave — современныя платформа с интуитивно понятным интерфейсом, использующую NextJS и Tailwind CSS для создания отзывчивого дизайна.",
         tags: [
             {
                 name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "tailwind CSS",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "react",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: 'https://skrinshoter.ru/s/070924/9O79z0U6.jpg?download=1&name=%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82-07-09-2024%2013:41:16.jpg',
+        source_code_link: "https://wwave.marsy.online",
     },
 ];
 
