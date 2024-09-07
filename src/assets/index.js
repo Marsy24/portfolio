@@ -28,11 +28,18 @@ import tesla from "./company/tesla.png";
 import miac from './company/miac.png';
 import freelance from './company/freelance.png';
 
+import cyclo from './projects/cyclo.jpg';
+import house from './projects/house.jpg';
+import wwave from './projects/wwave.jpg';
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  cyclo,
+  house,
+  wwave,
   freelance,
   miac,
   Logo,

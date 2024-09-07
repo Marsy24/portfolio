@@ -48,15 +48,17 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText}`}>Intro</p>
-        <h2 className={`${styles.sectionHeadText}`}>Overview.</h2>
+        <p className={`${styles.sectionSubText}`}>Введение</p>
+        <h2 className={`${styles.sectionHeadText}`}>О себе.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Я опытный разработчик программного обеспечения с навыками в TypeScript и JavaScript, а также с экспертизой в таких фреймворках, как React, Node.js и Three.js. Я быстро учусь и тесно сотрудничаю с клиентами для создания эффективных, масштабируемых и удобных решений, которые решают реальные проблемы. Давайте работать вместе, чтобы воплотить ваши идеи в жизнь!
+        Я разработчик с навыками в TypeScript и JavaScript, а также с опытом в таких фреймворках, как React, Node.js(Express, nestjs) и Three.js.
+        Я быстро учусь и тесно сотрудничаю с клиентами для создания эффективных, масштабируемых и удобных решений, которые решают реальные проблемы.
+        Давайте работать вместе, чтобы воплотить ваши идеи в жизнь!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

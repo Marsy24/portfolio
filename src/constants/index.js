@@ -24,7 +24,10 @@ import {
     tripguide,
     threejs,
     miac,
-    freelance
+    freelance,
+    cyclo,
+    house,
+    wwave,
 } from "../assets";
 
 export const navLinks = [
@@ -224,7 +227,7 @@ const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: 'public/1.jpg',
+        image: cyclo,
     },
     {
         name: "Modern Haven",
@@ -244,7 +247,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: 'public/2.jpg',
+        image: house
     },
     {
         name: "W-Wave",
@@ -264,7 +267,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: 'https://skrinshoter.ru/s/070924/9O79z0U6.jpg?download=1&name=%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82-07-09-2024%2013:41:16.jpg',
+        image: wwave,
         source_code_link: "https://wwave.marsy.online",
     },
 ];
